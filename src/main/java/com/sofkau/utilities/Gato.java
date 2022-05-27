@@ -6,7 +6,7 @@ import com.sofkau.utilities.interfaces.GatoInterface;
 
 public class Gato extends Animal implements GatoInterface {
 
-    private static final Logger logger = Logger.getLogger(Perro.class.getName());
+    private static final Logger logger = Logger.getLogger(Gato.class.getName());
 
     public Gato(double peso, double altura) {
         super(peso, altura);
