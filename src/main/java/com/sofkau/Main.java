@@ -14,8 +14,9 @@ public class Main {
 
     private static void init() {
         perro.ladrar();
+        perro.walkRight();
         gato.maullar();
-        
+        gato.walkLeft();
     }
 
 }

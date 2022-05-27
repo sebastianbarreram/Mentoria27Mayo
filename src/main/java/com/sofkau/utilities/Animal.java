@@ -1,8 +1,10 @@
 package com.sofkau.utilities;
+import java.util.logging.Logger;
 
 public class Animal {
     double peso;
     double altura;
+    private static final Logger logger = Logger.getLogger(Perro.class.getName());
 
     public Animal(double peso, double altura) {
         this.peso = peso;
@@ -26,10 +28,11 @@ public class Animal {
     }
 
     public void walkRight() {
+        logger.info("Se movio a la derecha");
 
     }
 
     public void walkLeft() {
-
+        logger.info("Se movio a la izquierda");
     }
 }
